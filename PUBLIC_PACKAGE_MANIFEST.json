@@ -1,0 +1,178 @@
+{
+  "version": "v44.27-public-source-contest-20261009",
+  "status": "PUBLIC_CONTEST_SOURCE_RELEASE",
+  "base_archive": "OOC_SOURCE_ONLY_V44_27_CHART_CLARITY_INTERNAL_NOT_AUTHORIZED_FOR_PUBLICATION.zip",
+  "base_archive_sha256": "9DB65D6C8FBEE54C85BD3D82E32201ADD7A35FC36DBAAAD273FA2C7E21F704AF",
+  "changes": [
+    "Contest source release preparation: clarify public-review scope, preserve third-party data restrictions, and record project lineage/AI-use boundaries.",
+    "No raw data, processed tables, derived results, reports, videos, or credentials added."
+  ],
+  "analysis_added": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 124,
+      "sha256": "5B8C506E614661AE3154F8F6B90175C6A13080367175D8D323AFD073954A6FEB"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 141,
+      "sha256": "4F2E986C9AC0B2EF9E512D041535952224C02DF220E1D707AFE3679E99570576"
+    },
+    {
+      "path": "AI_AND_CODE_PROVENANCE.md",
+      "bytes": 3164,
+      "sha256": "0728BE1AD51E61E427CE1CEFEF307E2D370D18B64DBF7BFFFCDA73CF01ACE7A5"
+    },
+    {
+      "path": "app.py",
+      "bytes": 29457,
+      "sha256": "428289DE4866E55BAFE408447A699ADAE83A0DE33FE112A2E5450D1789470FD5"
+    },
+    {
+      "path": "DATA_ACCESS_AND_REPRODUCTION.md",
+      "bytes": 13005,
+      "sha256": "71B5DA29BC289C8C2098AB3E68DFFE4ECA07BC18FD54B9DDD2D2F6E7E8A6BD46"
+    },
+    {
+      "path": "DATASET_BASELINE_ROW_SELECTION_CORRECTION_20261003.md",
+      "bytes": 2748,
+      "sha256": "EF0B7F9049CB8E496069165C4A1AB101965F61864B7286D91ED4E0B42DC97BE1"
+    },
+    {
+      "path": "DATASET_QC_PARSER_CORRECTION_20261001.md",
+      "bytes": 2748,
+      "sha256": "DE5B503C0968164DD181CE01BF62201FB1AFFAB2AA869F0E6184B39AEB3D82C9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6459,
+      "sha256": "53EAE4BBDC8587B28B77DF7AE396604E828E13BC469F1DA5EDF1188BFC92FC7E"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 173,
+      "sha256": "5F35249616BEBBD2A93A724C7D689A4E484820CED74A31D0015E7B067A4273D8"
+    },
+    {
+      "path": "src/analyze_organoid_recording_stability.py",
+      "bytes": 11417,
+      "sha256": "0D3C5D4E405379107320C76A60608E05366C54A0C7AC4900C1AA5A2F5B969904"
+    },
+    {
+      "path": "src/audit_dataset.py",
+      "bytes": 7765,
+      "sha256": "F62EC08DFD7A0F9818825279B0A424B0B24A519AEEDB35AF79F8E945B146C115"
+    },
+    {
+      "path": "src/audit_dishbrain.py",
+      "bytes": 8648,
+      "sha256": "DB5A7A07C8AE8598E0A38AC9C6AD4DECC3E97B6FE50F668D2CDF4E7A7DBDAC8B"
+    },
+    {
+      "path": "src/audit_dose_negative_control.py",
+      "bytes": 4470,
+      "sha256": "79C0BA0E8D8353F565FBD8F17EB35F498236163379CDE0070E5224206024B261"
+    },
+    {
+      "path": "src/audit_fingerprint_robustness.py",
+      "bytes": 8805,
+      "sha256": "DB733E33DA324C41FDEC46A731BFDCC47099702DD84EF86342972529D0D2E573"
+    },
+    {
+      "path": "src/audit_portfolio_one_swap.py",
+      "bytes": 4431,
+      "sha256": "ACC6C466B0820704C273B149832E5503F3C39D6D21FA0E250A3E7C103B0331FE"
+    },
+    {
+      "path": "src/audit_portfolio_random_baseline.py",
+      "bytes": 4537,
+      "sha256": "82A06DB25D9CE5A1D84781BEF0D8166174329DB617361DDED112662E6A8F3AC5"
+    },
+    {
+      "path": "src/build_public_package_manifest.py",
+      "bytes": 3818,
+      "sha256": "9433F54129D73873CA31340647FD2445D9FAD621CEE5C1B2756AFD564D98D1C7"
+    },
+    {
+      "path": "src/download_public_data.py",
+      "bytes": 13198,
+      "sha256": "4F86542F4B5DE7440BD1A3FF1801D17E936ED31991BB9F03B2DD6D9E9963E79A"
+    },
+    {
+      "path": "src/evaluate_drug_fingerprint.py",
+      "bytes": 8448,
+      "sha256": "16CEAE4DC7EEF09EBEE418D82976107748808DFA82AC7D251E4C69C8ADA1B4FD"
+    },
+    {
+      "path": "src/evaluate_drug_response.py",
+      "bytes": 10345,
+      "sha256": "B6AF2A9DA705A00B308288F678D71234C2BD26D49E56C7586FD78520579DA117"
+    },
+    {
+      "path": "src/evaluate_experiment_portfolio.py",
+      "bytes": 9453,
+      "sha256": "5DDFA5FC13972069BC4CA3B4FAF87D68A6E7E34C21586CC9947B473761C1944F"
+    },
+    {
+      "path": "src/evaluate_qc.py",
+      "bytes": 8609,
+      "sha256": "6BC7585292B3DC8037782BEA48C746A49720A1EBF793291082CEC284D15A3E8E"
+    },
+    {
+      "path": "src/evaluate_selection.py",
+      "bytes": 7226,
+      "sha256": "199ED77739E0A5D057A6230F3218C0C1D9A3587670C5217D024EB30B2D98AEC8"
+    },
+    {
+      "path": "src/matlab_v73.py",
+      "bytes": 860,
+      "sha256": "ABF03F5B639565A9CFA05C773A6AC185693EEB03387B4616B4C3E0E5259458E2"
+    },
+    {
+      "path": "src/protocol_confound_scanner.py",
+      "bytes": 5176,
+      "sha256": "90E89A27820E95AB3B2D5DCF05D9393098AB8BAC5CB0AD3A9C99D5054F4A5FD6"
+    },
+    {
+      "path": "src/verify_public_package.py",
+      "bytes": 2164,
+      "sha256": "FAEB1272AC783AB99079D6807B34E87CF6D40FD816793C74F051AE9D75D3D7AF"
+    },
+    {
+      "path": "tests/test_core_math.py",
+      "bytes": 2164,
+      "sha256": "E50BB5C4F34D63270D9BE1BF22816872EF3D18A8F91E726D9B92220007E10136"
+    },
+    {
+      "path": "tests/test_download_public_data.py",
+      "bytes": 6268,
+      "sha256": "AB64A04C83E5328B9C56737FE95F64D9B604BD4A7935DFD04D1F90479EAAAC57"
+    },
+    {
+      "path": "tests/test_earliest_rest_semantics.py",
+      "bytes": 1688,
+      "sha256": "D6494A0A983DB909D9BB77397537BA10052F0B470A752B38D284A761F5C63794"
+    },
+    {
+      "path": "tests/test_evidence_contract.py",
+      "bytes": 11646,
+      "sha256": "4D7F7F888E0C86AAC29DF00B96691EE2530A6E37FD3E9A77EEFDDB1688505DD0"
+    },
+    {
+      "path": "tests/test_matlab_v73.py",
+      "bytes": 3444,
+      "sha256": "1FF7AF0CC687D9257545CB2DFE7F708A78650708B02D1B3895F7A016AB6AA54D"
+    },
+    {
+      "path": "tests/test_redteam_dashboard_ui.py",
+      "bytes": 9868,
+      "sha256": "5F6B12B806D79DC939215A08A030BF93E7E6025C693E7AC210DFA872E1213D84"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2543,
+      "sha256": "95BE8A44F8302033F1740593448678A980EB7515E5BE3FEA12427CD355C961B1"
+    }
+  ]
+}

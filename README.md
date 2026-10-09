@@ -76,4 +76,3 @@ py -3.12 -m venv .venv
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
-

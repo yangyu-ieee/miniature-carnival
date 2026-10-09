@@ -1,0 +1,6 @@
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hide developer rerun controls in the local demo and screen recording.
+toolbarMode = "minimal"

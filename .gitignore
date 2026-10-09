@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mplconfig/
+.streamlit/secrets.toml
+.env
+data/raw/
+data/processed/
+results/
+*.log
+*.tmp
