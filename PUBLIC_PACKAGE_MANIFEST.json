@@ -1,7 +1,7 @@
 {
   "version": "v44.27-public-source-contest-20261009",
   "status": "PUBLIC_CONTEST_SOURCE_RELEASE",
-  "base_archive": "OOC_SOURCE_ONLY_V44_27_CHART_CLARITY_INTERNAL_NOT_AUTHORIZED_FOR_PUBLICATION.zip",
+  "base_archive": "OOC_SOURCE_ONLY_V44_27_CHART_CLARITY_INTERNAL_NOT_AUTHORIZED_FOR_PUBLICATION.zip (internal build input; not distributed with this public repository)",
   "base_archive_sha256": "9DB65D6C8FBEE54C85BD3D82E32201ADD7A35FC36DBAAAD273FA2C7E21F704AF",
   "changes": [
     "Contest source release preparation: clarify public-review scope, preserve third-party data restrictions, and record project lineage/AI-use boundaries.",
